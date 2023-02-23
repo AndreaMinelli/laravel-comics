@@ -32,6 +32,7 @@
                 @endforeach
             </ul>
         </nav>
+        {{-- Search form --}}
         <form action="#">
             <div class="wrapper">
                 <input type="text" placeholder="Search">
@@ -39,4 +40,5 @@
             </div>
         </form>
     </div>
+    <div class="jumbotron"></div>
 </header>
