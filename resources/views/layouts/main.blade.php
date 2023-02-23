@@ -17,6 +17,7 @@
     @include('includes.header')
     <main>
         @yield('main-content')
+        @include('includes.main_banner')
     </main>
 </body>
 
