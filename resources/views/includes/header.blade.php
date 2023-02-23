@@ -15,7 +15,7 @@
     <div class="container row">
         {{-- Logo DC --}}
         <figure>
-            <a href="#">
+            <a href="/">
                 <img src="{{ Vite::asset('resources/img/dc-logo.png') }}" alt="DC logo" />
             </a>
         </figure>
@@ -24,7 +24,7 @@
             <ul>
                 @foreach ($links as $link)
                     <li>
-                        <a :href="{{ $link['url'] }}">{{ $link['text'] }} @if ($loop->last)
+                        <a href="{{ route($link['url']) }}">{{ $link['text'] }} @if ($loop->last)
                                 <i class="fa-solid fa-caret-down"></i>
                             @endif
                         </a>

@@ -1,5 +1,5 @@
 @extends('layouts.main')
 
 @section('main-content')
-    <h1>Home</h1>
+    <h1>Videos</h1>
 @endsection
